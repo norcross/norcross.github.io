@@ -1,32 +1,72 @@
 <!DOCTYPE html>
-<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
-<!--[if lt IE 7 ]> <html class="no-js ie6"> <![endif]-->
-<!--[if IE 7 ]>    <html class="no-js ie7"> <![endif]-->
-<!--[if IE 8 ]>    <html class="no-js ie8"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!-->
-<html class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage no-websqldatabase no-indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients no-cssreflections csstransforms csstransforms3d csstransitions fontface video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths"><!--<![endif]--><head>
-	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<html lang="en">
+
+<head>
 	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="chrome=1">
-	<title>Norcross</title>
+	<meta name="viewport" content="width=device-width">
+	<title>Hello There | Andrew Norcross</title>
 
-	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,700" rel="stylesheet">
-	<link rel="stylesheet" href="css/style.min.css">
+	<link rel="stylesheet" href="css/style.css" media="all">
 </head>
-<body lang="en">
-	<div class="container">
 
-		<header>
-			<h1>Norcross</h1>
-		</header>
+<body class="bg-gray-100 text-gray-700 dark:bg-gray-900 dark:text-gray-300 relative min-h-screen h-full font-sans w-full">
 
-		<section>
-			<p>funny like a funeral</p>
-		</section>
+	<header class="w-full flex justify-center relative cursor-default">
+		<div class="pt-10 max-w-4xl px-5 lg:px-0 grid gap-4">
+			<h1 class="text-6xl font-bold w-fit leading-tight font-typer content">Hello</h1>
+			<h2 class="text-2xl font-medium w-fit leading-tight font-typer content">Welcome to my website. There are many others like it, but this one is mine.</h2>
+		</div>
+	</header>
 
-		<footer>
-		</footer>
+	<div class="w-full flex justify-center relative">
+		<main class="pt-10 max-w-4xl px-5 lg:px-0 grid grid-cols-1 gap-8">
 
+			<div class="flex items-baseline relative gap-2">
+				<span class="h-fit font-mono rotate-180 lg:absolute lg:-left-8 cursor-vertical-text display-vertical-text text-gray-600 dark:text-gray-400 uppercase text-xs mt-2 select-none">Intro</span>
+				<p class="text-lg leading-8 tracking-wide">My name is Andrew (<em class="font-light font-serif">he/him</em>), but most people know me simply by my last name <span class="text-gray-700 font-semibold font-serif">Norcross</span>. I work as a Principal Software Architect at <a href="https://lonerockpoint.com/" target="_blank" rel="noopener noreferrer" class="underline font-medium tracking-wide transition decoration-gray-400 hover:decoration-gray-500 dark:decoration-gray-600 dark:hover:decoration-gray-500 cursor-pointer display-inline-link">Lone Rock Point</a>, a government and public-sector focused web development agency.</p>
+			</div>
+
+			<div class="flex items-baseline relative gap-2">
+				<span class="h-fit font-mono rotate-180 lg:absolute lg:-left-8 cursor-vertical-text display-vertical-text text-gray-600 dark:text-gray-400 uppercase text-xs mt-2 select-none">Code</span>
+				<p class="text-lg leading-8 tracking-wide">I'm a web application developer, writing primarily PHP and JavaScript. The vast majority of my career has been spent working with <a href="https://wordpress.org" target="_blank" rel="noopener noreferrer" class="underline font-medium tracking-wide transition decoration-gray-400 hover:decoration-gray-500 dark:decoration-gray-600 dark:hover:decoration-gray-500 cursor-pointer display-inline-link">WordPress</a>, with my first exposure in 2005. Since that time I have written and released numerous open-source plugins, along with client work and contributions to larger projects.</p>
+			</div>
+
+			<div class="flex items-baseline relative gap-2">
+				<span class="h-fit font-mono rotate-180 lg:absolute lg:-left-8 cursor-vertical-text display-vertical-text text-gray-600 dark:text-gray-400 uppercase text-xs mt-2 select-none">Work</span>
+				<p class="text-lg leading-8 tracking-wide">My most recent project was the build and launch of NASA's Flagship website <a href="https://www.nasa.gov" target="_blank" rel="noopener noreferrer" class="underline font-medium tracking-wide transition decoration-gray-400 hover:decoration-gray-500 dark:decoration-gray-600 dark:hover:decoration-gray-500 cursor-pointer display-inline-link">www.nasa.gov</a> over a nearly 3 year period. Previously, I've worked with the New York Times, NewRelic, The Soros Foundation, GitHub, NextDraft, and countless others to build custom web applications on top of WordPress.</p>
+			</div>
+
+			<div class="flex items-baseline relative gap-2">
+				<span class="h-fit font-mono rotate-180 lg:absolute lg:-left-8 cursor-vertical-text display-vertical-text text-gray-600 dark:text-gray-400 uppercase text-xs mt-2 select-none">Career</span>
+				<p class="text-lg leading-8 tracking-wide">Previous to my career in software development, I worked in the finance industry for nearly 10 years as an accountant, pricing specialist, and fiduciary asset manager. I happily left the industry in 2009. I also did a few tours of duty in the restuarant / hospitality industry. And I once dug ditches for a living.</p>
+			</div>
+
+			<div class="flex items-baseline relative gap-2">
+				<span class="h-fit font-mono rotate-180 lg:absolute lg:-left-8 cursor-vertical-text display-vertical-text text-gray-600 dark:text-gray-400 uppercase text-xs mt-2 select-none">Hire</span>
+				<p class="text-lg leading-8 tracking-wide">While I'm very happy with my current role, I do take occasional freelance projects that are a good fit. My specialty is building "single use" utility plugins for developers and site owners to manage their own sites better, and bespoke plugins to fit the unique needs of larger individual sites. Want to chat? <a href="#email" target="_blank" rel="noopener noreferrer" class="underline font-medium tracking-wide transition text-emerald-500 cursor-pointer display-inline-link">email me</a>.</p>
+			</div>
+
+			<div class="flex items-baseline relative gap-2">
+				<span class="h-fit font-mono rotate-180 lg:absolute lg:-left-8 cursor-vertical-text display-vertical-text text-gray-600 dark:text-gray-400 uppercase text-xs mt-2 select-none">Life</span>
+				<p class="text-lg leading-8 tracking-wide">I currently reside in Tampa, Florida, and have been a Floridian nearly my entire life. When I'm not in front of a screen, I can usually be found raising my (currently teenage) son, working on a home renovation project, building a LEGO set, going to a concert, or spending time with my dogs.</p>
+			</div>
+
+		</main>
 	</div>
+
+	<div class="h-32"></div>
+
+	<footer class="text-right text-xs dark:text-gray-400 absolute bottom-2 px-5 lg:px-0 pb-8 lg:pb-3 w-full flex justify-center">
+		<div class="max-w-4xl flex justify-between w-full">
+			<div class="flex gap-2">
+				<a class="underline font-medium tracking-wide transition decoration-gray-400 hover:decoration-gray-500 dark:decoration-gray-600 dark:hover:decoration-gray-500 cursor-pointer display-inline-link" href="https://github.com/norcross" target="_blank" rel="noopener noreferrer" title="View code I have written and released on GitHub">GitHub</a>
+				<small>•</small>
+				<a class="underline font-medium tracking-wide transition decoration-gray-400 hover:decoration-gray-500 dark:decoration-gray-600 dark:hover:decoration-gray-500 cursor-pointer display-inline-link" href="https://www.linkedin.com/in/norcross/" target="_blank" rel="noopener noreferrer" title="See my professional profile on LinkedIn">LinkedIn</a>
+			</div>
+			<p>&copy; 2024 Andrew Norcross</p>
+		</div>
+	</footer>
+
 </body>
+
 </html>
