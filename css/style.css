@@ -852,6 +852,11 @@ ol {
     color: rgb(220 38 38/var(--tw-text-opacity))
 }
 
+.text-maroon-600 {
+    --tw-text-opacity: 1;
+    color: rgb(80 00 00/var(--tw-text-opacity))
+}
+
 .underline {
     text-decoration-line: underline
 }
@@ -862,6 +867,10 @@ ol {
 
 .decoration-gray-400 {
     text-decoration-color: #a3a3a3
+}
+
+.text-larger-110 {
+    font-size: 110%;
 }
 
 .blur {
