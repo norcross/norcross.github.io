@@ -873,6 +873,10 @@ ol {
     font-size: 110%;
 }
 
+.text-larger-120 {
+    font-size: 120%;
+}
+
 .blur {
     --tw-blur: blur(8px)
 }
