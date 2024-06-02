@@ -265,7 +265,7 @@ th {
 
 ol {
     list-style-type: decimal;
-    padding-left: 1rem;
+    padding-left: 2.5rem;
     padding-top: 1rem
 }
 
@@ -417,6 +417,14 @@ ol {
 
 .mt-2 {
     margin-top: .5rem
+}
+
+.mb-2 {
+    margin-bottom: .5rem
+}
+
+.mb-4 {
+    margin-bottom: 1rem
 }
 
 .flex {
@@ -855,6 +863,10 @@ ol {
 .text-maroon-600 {
     --tw-text-opacity: 1;
     color: rgb(80 00 00/var(--tw-text-opacity))
+}
+
+.single-stuff-name-link {
+    display: block;
 }
 
 .underline {
