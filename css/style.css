@@ -957,6 +957,25 @@ ol {
     }
 }
 
+@media (max-width:404px) {
+
+    .footer-data-wrapper {
+        display: block;
+    }
+
+    .footer-nav {
+        display: block;
+        margin: 0 0 15px;
+        text-align: center;
+    }
+
+    p.footer-credits {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+}
+
 @media (prefers-color-scheme:dark) {
     .dark\:border-gray-600 {
         --tw-border-opacity: 1;
